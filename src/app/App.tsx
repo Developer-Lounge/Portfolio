@@ -939,7 +939,7 @@ export default function App() {
                   { icon: Github, href: "#" },
                   { icon: Linkedin, href: "#" },
                   { icon: Mail, href: "mailto:your.email@example.com" },
-                  { icon: MessageCircle, href: "https://wa.me/1234567890" },
+                  { icon: MessageCircle, href: "https://wa.me/07056132170" },
                 ].map((social, index) => (
                   <a
                     key={index}
