@@ -853,7 +853,7 @@ export default function App() {
                 Start a Conversation
               </button>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/07056132170"
                 className="px-8 py-4 rounded-full backdrop-blur-md bg-white/10 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
               >
                 <MessageCircle size={20} />
@@ -862,16 +862,16 @@ export default function App() {
             </div>
             <div className="flex items-center justify-center gap-6">
               {[
-                { icon: Github, href: "#", label: "GitHub" },
-                { icon: Linkedin, href: "#", label: "LinkedIn" },
+                { icon: Github, href: "https://github.com/Developer-Lounge", label: "GitHub" },
+                { icon: Linkedin, href: "https://linkedin.com/in/davidpeter", label: "LinkedIn" },
                 {
                   icon: Mail,
-                  href: "mailto:your.email@example.com",
+                  href: "mailto:thedavidpeter0511@gmail.com",
                   label: "Email",
                 },
                 {
                   icon: MessageCircle,
-                  href: "https://wa.me/1234567890",
+                  href: "https://wa.me/07056132170",
                   label: "WhatsApp",
                 },
               ].map((social, index) => (
@@ -936,9 +936,9 @@ export default function App() {
               <h4 className="font-bold text-white mb-4">Connect</h4>
               <div className="flex gap-3">
                 {[
-                  { icon: Github, href: "#" },
-                  { icon: Linkedin, href: "#" },
-                  { icon: Mail, href: "mailto:your.email@example.com" },
+                  { icon: Github, href: "https://github.com/Developer-Lounge" },
+                  { icon: Linkedin, href: "https://linkedin.com/in/davidpeter" },
+                  { icon: Mail, href: "mailto:thedavidpeter0511@gmail.com" },
                   { icon: MessageCircle, href: "https://wa.me/07056132170" },
                 ].map((social, index) => (
                   <a
