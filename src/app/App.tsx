@@ -177,7 +177,7 @@ export default function App() {
                       <img
                         src={img}
                         alt="Profile Picture of David Peter"
-                        className="w-169 h-170 rounded-full max-md:w-95 max-md:h-105"
+                        className="w-190 h-178 rounded-full max-md:w-95 max-md:h-105"
                       />
                     </div>
                   </div>
@@ -227,9 +227,9 @@ export default function App() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text ml-4 text-transparent">
                   {displayText}
-                  <span className="animate-pulse">|</span>
+                  <span className="animate-pulse"></span>
                 </span>
               </motion.h1>
 
